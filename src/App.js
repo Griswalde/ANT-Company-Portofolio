@@ -1,8 +1,12 @@
 import react from "react";
-
+import Navbar from "./component/Navbar/Navbar";
+import Home from "./component/Home/Home";
 const App = ()=>{
   return( 
-    <h1> hello react js. we will add navbar </h1>
+    <>
+    <Navbar/>
+    <Home/>
+    </>
   );
 }
 
