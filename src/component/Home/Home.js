@@ -1,10 +1,24 @@
 import React from "react";
 import "./home.css";
-
+import Typewriter from 'typewriter-effect';
 const Home = () => {
   return (
     <div className="container-fluid home">
       <div className="container home-content">
+
+
+        <h1>
+        <Typewriter
+  options={{
+    strings: [
+      "ANT Production", 
+    "ANT Media"],
+    autoStart: true,
+    loop: true,
+    delay: 5
+  }}
+/>
+        </h1>
         <p>
 
           Lorem Ipsum is simply dummy text of the printing and typesetting
