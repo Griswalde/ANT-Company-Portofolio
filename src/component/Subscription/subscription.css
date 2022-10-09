@@ -1,0 +1,63 @@
+.subscription { 
+    height: 300px;
+    color: white;
+    background-color: rgba(208,19,104,0.571);
+    position: relative;
+    margin-top: 50px;
+   
+}
+
+.subscription:before {
+    content: "";
+    background: url("../../image/about.jpg")
+     no-repeat center center/cover;
+    height : 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.subscription_title h5{
+    text-align: center;
+    padding: 20px;
+    color : chartreuse;
+    font-size: 20px;
+}
+
+.subscription-from input {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 0px;
+    width : 50%;
+    margin-top: 10px;
+}
+
+.subscription_button p  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: black;
+    padding: 10px;
+    width : 50%;
+    font-size: 20px;
+    margin-top: 20px;
+    color : greenyellow;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+
+.subscription_button p:hover{
+    border: 1px solid greenyellow;
+    background-color: #fff;
+    color: green;
+    transition-duration: 1s;
+}

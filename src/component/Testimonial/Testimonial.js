@@ -123,17 +123,17 @@ const Testimonial = () => {
 
 
   return (
-    <div className='container testimonial-section'>
+    <div className='container testimonial-section' id="testimonial">
         <div className='section_title'>
                 <h5>Testimonial</h5>
                 <span className="line"></span>
                 </div>
 
                 <div className='row'>
-                    {data.slice(0,showMorePost).map((item,index)=>(
-                        <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12'>
+                    {data.slice(0, showMorePost).map((item,index)=> (
+                        <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12' key={index}>
 
-                            <div className='content-card'>
+                            <div className={index==1  ? "marked-content-card":"content-card"}>
                                 <img src={item.img} alt="image"/>
                                 <p>
                                     {item.content} </p>
