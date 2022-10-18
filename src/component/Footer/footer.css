@@ -2,6 +2,7 @@
     height: auto;
     margin: 0px;
     background-color: #030749;
+    margin-top: 60px;
 }
 
 .footer-about-section {
@@ -24,3 +25,27 @@
     list-style-type: none;
     padding-top: 10px;
 }
+
+li {
+    --border-color: yellow;
+    --border-color2: greenyellow;
+    --border-width: 2px;
+    --bottom-distance:  0px;
+    display: block;
+    background-image: linear-gradient(var(--border-color),var(--border-color));
+    background-size: 0 var(--border-width);
+    background-repeat: no-repeat;
+    transition: background-size 0.5s;
+}
+
+.footer-item li {
+    background-position: 0 calc(100% - var(--bottom-distance));
+    color: white;
+    width: fit-content;
+}
+
+.footer-item li:hover {
+    background-size: 100% var(--border-width);
+    cursor: pointer;
+}
+

@@ -1,12 +1,15 @@
 .home{
     height : 100vh;
     color : #fff;
-    background-color: #cd5c5cda;
+    
     position: relative;
 }
+
+
+
  .home::before{
     content: "";
-    background: url("../../image/about.jpg") no-repeat center center/cover;
+    background: url("../../image/bgcover.JPG") no-repeat center center/cover;
     height : 100%;
     width: 100%;
     position: absolute;
@@ -23,6 +26,11 @@
     margin: auto;
     color: white;
     padding: 10px;
+    font-family: Helvetica;
+ }
+
+.h1 {
+   display: center;
  }
 
  .view-detail-home-button{

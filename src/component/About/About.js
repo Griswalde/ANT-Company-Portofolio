@@ -21,69 +21,23 @@ const About = () => {
             </div>
 
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book
+            <p>
+          Technological advances affect the field of photography and videography
+          to become increasingly advanced. This affects industries where the
+          need for high-quality photos and videos is made easier. Ant Production
+          is built to always be ready to accompany technological advances on the
+          need for high-quality photos and videos
+          <br></br>
+          
+        
+          The progress of various industries such as e-commerce, social media
+          promotion, and product advertising is also the impact of technological
+          advances accompanied by the need for high-quality photos and videos.
+          For this reason, Ant Production is ready to collaborate with various
+          parties to work and achieve the intended goals together.
+        </p>
             </p>
-            {/* about pertama card design */}
-            <div className="card-design">
-              <div className="about-list-item">
-
-                <div className="about-details-icon">
-                  <p>
-                    <FcSlrBackSide size={50}/>
-                  </p>
-                </div>
-                <div>
-                  <h6>Perfect day out</h6>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* about kedua card design  */}
-            <div className="card-design">
-              <div className="about-list-item">
-
-                <div className="about-details-icon">
-                  <p>
-                    <FcOldTimeCamera size={50}/>
-                  </p>
-                </div>
-                <div>
-                  <h6>Perfect day out</h6>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-
-
-            {/* about ke tiga card design */}
-            <div className="card-design">
-              <div className="about-list-item">
-
-                <div className="about-details-icon">
-                  <p>
-                    <FcGallery size={50}/>
-                  </p>
-                </div>
-                <div>
-                  <h6>Perfect day out</h6>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
-                </div>
-              </div>
-            </div>
+            
 
 
 
