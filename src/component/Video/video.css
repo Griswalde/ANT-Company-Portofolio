@@ -1,5 +1,14 @@
 .video {
     height :900px;
+    margin-top: 20px;
+}
+
+@media (max-width:1000px) {
+    .video{
+        height: auto;
+
+    }
+
 }
 
 .section_title h5{
