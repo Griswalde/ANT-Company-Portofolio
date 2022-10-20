@@ -11,14 +11,20 @@
 
 }
 
-.social-icons {
+.footer-social-icons {
     display: flex;
-    color: orange;
-    cursor: pointer;
+    
 }
-.social-icons p  {
+.footer-social-icons p  {
+    height: 40px;
+    
+    color: white;
+    border-radius: 90px;
+    display: flex;
     margin: 3px;
 }
+
+
 
 .footer-item li{
     color: white;
