@@ -1,18 +1,31 @@
 import React from 'react'
 import "./about.css"
 import about from "../../image/about.jpg"
+import Fade from 'react-reveal/Fade';
 import { FcSlrBackSide,FcOldTimeCamera,FcGallery } from "react-icons/fc";
+
 
 const About = () => {
   return (
     <div className="container about-section" id="about">
       <div className="row">
+
+        <Fade left>
+
+
+        
+
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+
           <div className="about-image">
             <img src={about} height="400px" width="400px" alt="about_iamge" />
           </div>
+
+
         </div>
 
+        </Fade>
+        <Fade right>
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <div className="about-details">
             <div className="about-title">
@@ -44,6 +57,11 @@ const About = () => {
 
           </div>
         </div>
+        
+
+
+        </Fade>
+
       </div>
     </div>
   );

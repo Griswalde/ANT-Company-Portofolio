@@ -3,6 +3,12 @@
 }
 
 
+#dark .about-section {
+    color : white;
+}
+
+
+
 @media (max-width:1000px) {
     .about-section{
         height: auto;
@@ -73,7 +79,3 @@
     padding : 10px;
 }
 
-.about-details-icon{
-    padding-right: 10px;
-    color : purple;
-}
