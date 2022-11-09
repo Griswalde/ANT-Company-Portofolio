@@ -5,6 +5,7 @@ import About from "./component/About/About";
 import Footer from "./component/Footer/Footer";
 import Video from "./component/Video/Video";
 import NavbarMobileView from "./component/Navbar/NavbarMobileView";
+import Contact from "./component/Contact/Contact";
 import "./App.css";
 import ScrollToTop from "react-scroll-to-top";
 
@@ -31,6 +32,8 @@ const App = ()=>{
 
     <About/>
     <Video/>
+    <Contact/>
+    
     </div>
     <Footer/>
    
