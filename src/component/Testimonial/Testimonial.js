@@ -123,7 +123,7 @@ const Testimonial = () => {
 
 
   return (
-    <div className='container testimonial-section' id="testimonial">
+    <div className='container testimonial-section'>
         <div className='section_title'>
                 <h5>Testimonial</h5>
                 <span className="line"></span>
@@ -135,14 +135,7 @@ const Testimonial = () => {
 
                             <div className={index==1  ? "marked-content-card":"content-card"}>
                                 <img src={item.img} alt="image"/>
-                                <p>
-                                    {item.content} </p>
-                                     <p>
-
-                                     <span className='name'>{item.name}</span>
-                                     </p>
-                                    
-                                    <p>{item.position}</p>
+                                
                                 
 
                             </div>

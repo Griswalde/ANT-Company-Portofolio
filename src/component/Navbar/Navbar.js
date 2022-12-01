@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { Link } from "react-scroll";
+import Logo from "../../image/logo.jpg";
+import {
+  Link,
+} from "react-router-dom";
+
+
+
 
 
 const Navbar = () => {
@@ -17,14 +23,20 @@ const Navbar = () => {
   window.addEventListener("scroll", onChangeNavColor);
 
   return (
+    
     <nav
       className={
         navScrollColor ? "navbar-scroll-color navbar-main " : "navbar-main"
       }
     >
+      <div>
+        <img src={Logo} alt='Logo Image' style={{ width: '100px' }} />
+      </div>
       <ul>
+      
+      
         <li className="nav-item">
-          <Link to="home" spy={true} smooth={true} offset={-100} duration={100}>
+          <Link to="/" spy={true} smooth={true} offset={-100} duration={100}>
             Home
           </Link>
         </li>
@@ -64,6 +76,18 @@ const Navbar = () => {
           >
             
           Contact
+          </Link>
+          </li>
+        <li className="nav-item">
+        <Link
+            to="gallery"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            
+          Gallery
           </Link>
           </li>
       </ul>
