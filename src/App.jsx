@@ -5,11 +5,10 @@ import About from "./component/About/About";
 import Footer from "./component/Footer/Footer";
 import Video from "./component/Video/Video";
 import Contact from "./component/Contact/Contact";
-import Team from "./component/Team/Team";
-import Gallery from "./component/Gallery/Gallery";
-import Bar from "./component/Navbar/Bar";
 import Navbar from "./component/Navbar/Navbar";
 import NavbarMobileView from "./component/Navbar/NavbarMobileView";
+import Media from "./component/Media/Media";
+import Idea from "./component/Idea/Idea";
 
 
 import "./App.css";
@@ -73,9 +72,9 @@ const App = ()=>{
       <Route index element={<Home/>}/>
       <Route path="about" element={<About/>}/>
       <Route path="video" element={<Video/>}/>
-      <Route path="gallery" element={<Gallery/>}/>
       <Route path="contact" element={<Contact/>}/>
-      <Route path="team" element={<Team/>}/>
+      <Route path="media" element={<Media/>}/>
+      <Route path="idea" element={<Idea/>}/>
       
 
       <Route path="*" element={<NoMatch />} />

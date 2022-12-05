@@ -53,6 +53,18 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-item">
+        <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            
+          Contact
+          </Link>
+          </li>
+        <li className="nav-item">
           <Link
             to="video"
             spy={true}
@@ -66,28 +78,29 @@ const Navbar = () => {
 
         
 
+       
         <li className="nav-item">
         <Link
-            to="contact"
+            to="media"
             spy={true}
             smooth={true}
             offset={-100}
             duration={100}
           >
             
-          Contact
+          Ant Media
           </Link>
           </li>
         <li className="nav-item">
         <Link
-            to="gallery"
+            to="idea"
             spy={true}
             smooth={true}
             offset={-100}
             duration={100}
           >
             
-          Gallery
+          Ant Idea
           </Link>
           </li>
       </ul>
