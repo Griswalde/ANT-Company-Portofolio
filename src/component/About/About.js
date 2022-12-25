@@ -1,13 +1,18 @@
 import React from 'react'
 import "./about.css"
-import about from "../../image/about.jpg"
+import about from "../../image/about.JPG"
 import Fade from 'react-reveal/Fade';
-import { FcSlrBackSide,FcOldTimeCamera,FcGallery } from "react-icons/fc";
+import { FaWhatsapp } from "react-icons/fa";
 
 
 const About = () => {
   return (
-    <div className="container about-section" id="about">
+    <div className="container about-section">
+      <div className="about-title">
+              <h5>About</h5>
+              <span className="line"></span>
+            </div>
+            <br/>
       <div className="row">
 
         <Fade left>
@@ -28,10 +33,7 @@ const About = () => {
         <Fade right>
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <div className="about-details">
-            <div className="about-title">
-              <h5>About</h5>
-              <span className="line"></span>
-            </div>
+            
 
             <p>
             <p>
@@ -50,6 +52,18 @@ const About = () => {
           parties to work and achieve the intended goals together.
         </p>
             </p>
+            <div className="submit-button"> 
+           
+              
+              <a href="https://api.whatsapp.com/send?phone=6285794692616&text=halo%20saya%20ingin%20mendiskusikan%20kebutuhan%20saya" target="_blank">
+            
+            
+            <button>
+               <FaWhatsapp size={30} /> 
+              Contact Whatsapp
+              </button>
+              </a>
+              </div>
             
 
 

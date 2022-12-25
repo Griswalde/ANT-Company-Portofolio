@@ -10,7 +10,14 @@ const Footer = () => {
           &copy; 2022 Ant Production. All rights reserved
         </div>
         <div className="col-auto">
-          <a href="https://www.instagram.com/ant__production/" target="_blank">Instagram</a>
+        <span className="social-icons">
+       
+          <a href="https://www.instagram.com/ant__production/" target="_blank">
+          <p>
+                  <AiOutlineInstagram size={30} />
+                </p>
+          </a>
+          </span>
         </div>
       </div>
     </div>

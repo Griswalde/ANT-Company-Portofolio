@@ -7,8 +7,8 @@ import Video from "./component/Video/Video";
 import Contact from "./component/Contact/Contact";
 import Navbar from "./component/Navbar/Navbar";
 import NavbarMobileView from "./component/Navbar/NavbarMobileView";
-import Media from "./component/Media/Media";
-import Idea from "./component/Idea/Idea";
+import Media from "./component/AntMedia/Media";
+import Idea from "./component/AntIdea/Idea";
 
 
 import "./App.css";

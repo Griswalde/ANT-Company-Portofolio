@@ -3,9 +3,7 @@
 }
 
 
-#dark .video {
-    color : white;
-}
+
 
 @media (max-width:1000px) {
     .video{
@@ -15,9 +13,16 @@
 
 }
 
-.section_title h5{
+.section_title h3{
     text-align: center;
+    
 
+      
+
+}
+
+.section_title a {
+    color : black;
 }
 
 .video-details {

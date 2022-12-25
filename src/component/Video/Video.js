@@ -3,6 +3,7 @@ import "./video.css";
 import ReactPlayer from "react-player";
 import Zoom from "react-reveal/Zoom";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import ScrollToTop from "react-scroll-to-top";
 
 const Video = () => {
   const data = [
@@ -74,13 +75,13 @@ const Video = () => {
   };
 
   return (
-    <div className="container video" id="video">
+    <div className="container video">
       <div className="section_title">
-        <h5>
-          <a href="https://www.instagram.com/ant__production/">
+        <h3>
+          <a href="https://www.instagram.com/ant__production/" target="_blank">
             Ant production
           </a>
-        </h5>
+        </h3>
         <span className="line"></span>
       </div>
       <div className="row">
@@ -105,12 +106,12 @@ const Video = () => {
             </div>
           </Zoom>
         ))}
-
-        {showMorePost >= data.length ? null : (
+      {showMorePost >= data.length ? null : (
           <span className="laod-mores-button" onClick={loadMore}>
             Load More
           </span>
         )}
+       
       </div>
       
       <div style={{ padding: "10px" }}>
@@ -127,13 +128,18 @@ const Video = () => {
           </Masonry>
         </ResponsiveMasonry>
       </div>
+      <ScrollToTop smooth />
     </div>
+    
+    
 
     // gallery //
   );
 };
 
 export default Video;
+
+
 
 
 

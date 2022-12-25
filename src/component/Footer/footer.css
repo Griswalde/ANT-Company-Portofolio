@@ -5,3 +5,11 @@
     font-size: small;
 }
 
+
+.social-icons p  {
+    
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    
+}

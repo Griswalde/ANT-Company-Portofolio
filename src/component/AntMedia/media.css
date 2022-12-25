@@ -1,0 +1,46 @@
+.soon{
+    height : 100vh;
+    color : #fff;
+    
+    position: relative;
+}
+
+
+
+ .soon::before{
+    content: "";
+    background: url("../../image/media.jpg") no-repeat center center/cover;
+    height : 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+ }
+
+ .soon-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    padding: 10px;
+    font-family: Helvetica;
+    text-align: center;
+ }
+
+ .soon-content h1{
+   display: center;
+ }
+
+ 
+
+
+
+
+ @media (max-width: 1000px) {
+   .theme-change {
+      display: none;
+   }
+ }

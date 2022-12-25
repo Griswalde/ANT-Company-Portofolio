@@ -1,5 +1,6 @@
 .about-section {
-    height: 900px;
+    margin-top: 140px;
+    margin-bottom: 190px;
 }
 
 
@@ -18,8 +19,9 @@
 }
 
 .about-image img {
-    border-radius: 190px;
-    margin-top: 160px;
+    height: 700px;
+    width: 100%;
+    border-radius: 20px;
     object-fit: cover;
 }
 
@@ -77,5 +79,30 @@
 .about-list-item {
     display: flex;
     padding : 10px;
+}
+.submit-button a {
+    text-decoration: none;
+}
+
+.submit-button button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgb(32,14,5);
+    color: greenyellow;
+    padding: 10px;
+    width: 70%;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
+.submit-button button:hover {
+    
+    background-color: rgb(226,7,211);
+    color: white;
+    transition-duration: 2s;
+
+
 }
 
