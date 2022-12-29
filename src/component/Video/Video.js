@@ -84,7 +84,7 @@ const Video = () => {
         </h3>
         <span className="line"></span>
       </div>
-      <div className="row">
+      {/* <div className="row">
         {data.slice(0, showMorePost).map((item, index) => (
           <Zoom>
             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -112,7 +112,7 @@ const Video = () => {
           </span>
         )}
        
-      </div>
+      </div> */}
       
       <div style={{ padding: "10px" }}>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>

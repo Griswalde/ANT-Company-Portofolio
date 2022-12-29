@@ -61,7 +61,7 @@ const Navbar = () => {
             offset={-100}
             duration={100}
           >
-            Ant production
+            Ant Production
           </Link>
         </li>
 

@@ -12,9 +12,12 @@
     
 }
 
-
   
   /* visited link */
+  .nav-item  a {
+    color: white;
+  }
+  
   .nav-item  a:visited {
     color: white;
   }
