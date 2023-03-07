@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import about from "../../image/about.JPG"
+import about from "../../image/about.jpg"
 import Fade from 'react-reveal/Fade';
 import { FaWhatsapp } from "react-icons/fa";
 
