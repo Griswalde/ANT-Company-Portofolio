@@ -10,17 +10,17 @@ const Video = () => {
     {
       id: 1,
       url: "https://youtu.be/NC0PQzUQA-k",
-      title: "RTX",
+      
     },
     {
       id: 2,
       url: "https://youtu.be/6jeHvzVfMtQ",
-      title: "RTX",
+      
     },
     {
       id: 3,
       url: "https://youtube.com/shorts/occ8t5ljC4M?feature=share",
-      title: "RTX",
+      
     },
     {
       id: 4,
@@ -78,7 +78,11 @@ const Video = () => {
     <div className="container video">
       <div className="section_title">
         <h3>
-          <a href="https://www.instagram.com/ant__production/" target="_blank">
+          <a
+            href="https://www.instagram.com/ant__production/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Ant production
           </a>
         </h3>
@@ -113,7 +117,7 @@ const Video = () => {
         )}
        
       </div> */}
-      
+
       <div style={{ padding: "10px" }}>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
           <Masonry gutter="10px">
@@ -130,21 +134,9 @@ const Video = () => {
       </div>
       <ScrollToTop smooth />
     </div>
-    
-    
 
     // gallery //
   );
 };
 
 export default Video;
-
-
-
-
-
-
-
-
-
-
